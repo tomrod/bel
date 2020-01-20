@@ -1,5 +1,5 @@
 # `bel` MLOps
-### Leaving nothing up to fate.
+### Leave nothing up to chance.
 
 `bel` (will be) a modularizable library to deploy, log, monitor, and version informational products (data, ML, experiments) conforming to the general needs of MLOps, including
 
