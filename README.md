@@ -1,5 +1,5 @@
 # `bel` MLOps
-### The devil is in the details.
+### Leaving nothing up to fate.
 
 `bel` (will be) a modularizable library to deploy, log, monitor, and version informational products (data, ML, experiments) conforming to the general needs of MLOps, including
 
