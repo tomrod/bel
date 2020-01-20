@@ -1,7 +1,7 @@
-# BEL MLOps
-## The devil is in the details.
+# `bel` MLOps
+### The devil is in the details.
 
-Bel (will be) a modularizable library to deploy, log, monitor, and version informational products (data, ML, experiments) conforming to the general needs of MLOps, including
+`bel` (will be) a modularizable library to deploy, log, monitor, and version informational products (data, ML, experiments) conforming to the general needs of MLOps, including
 
 - Code version control
 - Model version control
@@ -10,6 +10,8 @@ Bel (will be) a modularizable library to deploy, log, monitor, and version infor
 - Deployment
 - Ongoing performance assessment
 - Deployment distribution
+
+Data science, ML, AI, and other frontier-level solutions are often seen as expensive in practice or out-of-reach for most budgets. However, the vast majority of the cost are due to repetitive, duplicative configuration and monitoring. General patterns exist, and `bel` is intended to support this.
 
 ---------------
 
@@ -75,18 +77,29 @@ Bel (will be) a modularizable library to deploy, log, monitor, and version infor
 
 ---------------
 
-Sources
+### Sources
 
 [0] https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf
+
 [1] https://github.com/microsoft/MLOps
+
 [2] https://slides.com/walsh/standards-in-ml-ops#/
+
 [3] https://en.wikipedia.org/wiki/MLOps
+
 [4] https://www.kdnuggets.com/2018/04/operational-machine-learning-successful-mlops.html
-[5] http://www.machinelearning.ai/machine-learning/alejandro-saucedo-scalable-data-sciencemachine-learning-the-state-of-dataops-mlops-in-2018/
+
+[5] http://www.machinelearning.ai/machine-learning/alejandro-saucedo-scalable-data-sciencemachine-learning-the-state-of-
+dataops-mlops-in-2018/
+
 [6] https://www.oreilly.com/radar/podcast/how-to-train-and-deploy-deep-learning-at-scale/
+
 [7] https://searchdatamanagement.techtarget.com/feature/Machine-learning-algorithms-meet-data-governance
+
 [8] https://petewarden.com/2018/03/19/the-machine-learning-reproducibility-crisis/
+
 [9] https://conferences.oreilly.com/artificial-intelligence/ai-eu-2018/public/schedule/detail/68247
+
 [10] https://bigdatabeard.com/bd-podcast-ep-34-putting-ai-to-work-with-mlops-powered-by-parallelm/
 
 -------------
