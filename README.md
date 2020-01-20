@@ -1,6 +1,7 @@
-In ML Ops. the devil is in the details.
+# BEL MLOps
+## The devil is in the details.
 
-Bel (will be) a modularizable library to deploy, log, monitor, and version machine learning projects conforming to the general principles of MLOps, including
+Bel (will be) a modularizable library to deploy, log, monitor, and version informational products (data, ML, experiments) conforming to the general needs of MLOps, including
 
 - Code version control
 - Model version control
@@ -12,15 +13,15 @@ Bel (will be) a modularizable library to deploy, log, monitor, and version machi
 
 ---------------
 
-Notes from NIPS *Hidden Technical Debt in Machine Learning Systems*
+### Notes from NIPS *Hidden Technical Debt in Machine Learning Systems*
 
-Complex models erode the following boundaries:
+#### Complex models erode the following boundaries:
 
 - Entanglement: chaining together models adds fragility
 - Correction cascades: correcting upstream models results in downstream entanglement
 - Undeclared consumers: without knowing who uses the model, changes can result in expensive or dangerous couplings
 
-Data dependencies are costlier than code dependencies
+#### Data dependencies are costlier than code dependencies
 
 - Unstable data dependencies
 
@@ -32,18 +33,18 @@ Data dependencies are costlier than code dependencies
 
 - Static analysis of data dependencies
 
-Feedback loops
+#### Feedback loops
 - Direct loops
 - Hidden loops
 
-ML-system anti-patterns
+#### ML-system anti-patterns
 - Glue code
 - Pipeline jungles
 - Dead experimental codepaths
 - Abstraction debt
 - Common smells: Plain-old-data type smell, multiple-language smell, prototype-smell
 
-Configuration debt: specifying principles of good configuration
+#### Configuration debt: specifying principles of good configuration
 - It should be easy to specify a configuration as a small change from a previous configuration
 - It should be hard to make manual errors, omissions, or oversights
 - It should be easy to see, visually, the difference in configuration between two models
@@ -51,20 +52,20 @@ Configuration debt: specifying principles of good configuration
 - It should be possible to detect unused or redundant settings
 - Configurations should undergo a full code review and be checked into a repository
 
-Dealing with changes in the external world
+#### Dealing with changes in the external world
 - Fixed thresholds of dynamic systems
 - Monitoring and testing
   - Prediction bias
   - Action limits
   - Up-stream producers
   
-Misc. areas of ML-related tech debt
+#### Misc. areas of ML-related tech debt
 - Data testing debt
 - Reproducibility debt
 - Process management debt
 - Organization norms debt (mis-phrased as 'cultural' debt in the paper)
 
-Measuring debt and paying it off: questions to assess
+#### Measuring debt and paying it off: questions to assess
 - How easily can an entirely new algorithmic approach be tested at full scale?
 - What is the transitive closure of all data dependencies?
 - How precisely can the impact of a new change to the system be measured?
